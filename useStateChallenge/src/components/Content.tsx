@@ -37,19 +37,13 @@ const reset = () =>
 
 
     <>
-    <p>Counter  {increase}</p>
-    <div><button onClick={clickIt1}>Increase</button></div> 
-    <div> <button onClick={clickIt2}>Decrease</button></div>
-    <div> <button onClick={reset}>Reset</button></div>
-    
-    
-    
-    
-    
+    <p> Counter  {increase}</p>
+    <div><button className="btn btn-primary" onClick={clickIt1}>Increase</button></div> 
+    <br/>
+    <div> <button className="btn btn-success" onClick={clickIt2}>Decrease</button></div>
+    <br/>
+    <div> <button className="btn btn-outline-secondary" onClick={reset}>Reset</button></div>
     </>
-
-
-
 
   );
 };
