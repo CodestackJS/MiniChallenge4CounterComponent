@@ -57,3 +57,15 @@ footer {
   display: flex;
   justify-content:center;
 }
+
+.box {
+  border: 5px pink dotted;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.text{
+  font-family:cursive ;
+  font-size: 50px;
+  color:purple;
+}
