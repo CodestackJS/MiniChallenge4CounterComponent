@@ -5,9 +5,6 @@ const Content = () => {
 
 const [increase, setIncrease] = useState(0);
 
-
-
-
 // increase
 const clickIt1 = () =>
     {
@@ -24,7 +21,6 @@ const clickIt2 = () =>
             {
                 return setIncrease(0);
             }
-           
     }
 
 const reset = () => 
@@ -44,7 +40,6 @@ const reset = () =>
     <div> <button className="btn btn-success" onClick={clickIt2}>Decrease</button></div>
     <br/>
     <div> <button className="btn btn-outline-secondary" onClick={reset}>Reset</button></div>
-
     </div>
     </>
 
